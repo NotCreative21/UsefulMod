@@ -48,6 +48,7 @@ jar {
 	classifier = ""
 	baseName = "$modName-$mcVersion"
 	from litemod.outputs
+	destinationDir = file("$buildDir/bin");
 }
 
 runClient {
